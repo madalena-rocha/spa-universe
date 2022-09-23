@@ -2,6 +2,7 @@
 
 body {
     background-image: url(../assets/mountains-universe-3.png);
+    transition: background-image 500ms ease;
 }
 
 nav a:nth-child(4) {
@@ -12,9 +13,11 @@ nav a:nth-child(4) {
     border-bottom: 1px solid var(--fc-secondary);
 }
 
-#app {
+.content {
     margin-left: 10.2rem;
     margin-top: 6.3rem;
 
     gap: 1.6rem;
+    
+    animation: rightleft 700ms 350ms backwards;
 }

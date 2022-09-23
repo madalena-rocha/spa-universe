@@ -24,6 +24,8 @@ body {
 
     background-image: url(../assets/mountains-universe-1.png);
     background-size: cover;
+
+    transition: background-image .5s ease;
 }
 
 nav {
@@ -45,14 +47,16 @@ nav a {
     transition: all .5s ease;
 }
 
-#app {
+.content {
     display: flex;
     flex-direction: column;
 
     max-width: 64.8rem;
+    
+    animation: topdown 700ms 350ms backwards;
 }
 
-#app h1 {
+.content h1 {
     font-size: 4.8rem;
     line-height: 125%;
 
@@ -84,9 +88,33 @@ nav a {
     transition: all .5s ease;
 }
 
-#app p {
+.content p {
     font-size: 1.8rem;
     line-height: 160%;
 
     color: var(--fc-primary);
+}
+
+@keyframes topdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rightleft {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

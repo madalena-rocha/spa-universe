@@ -1,11 +1,15 @@
-#app {
+body {
+    transition: background-image 500ms ease;
+}
+
+.content {
     margin: 0 auto;
     margin-top: 14.3rem;
 
     align-items: center;
     gap: 2.4rem;
-}
 
-.error {
     text-align: center;
+    
+    animation: topdown 700ms 350ms backwards;
 }

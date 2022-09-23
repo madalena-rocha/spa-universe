@@ -1,0 +1,15 @@
+{
+  "name": "desafio-05",
+  "version": "1.0.0",
+  "description": "Desafio \"SPA Universe\" do Explorer da Rocketseat, cujo objetivo foi a criação de uma página de exploração do universo utilizando o conceito de Single Page Application (SPA).",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

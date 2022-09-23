@@ -1,0 +1,21 @@
+@import url(../style.css);
+
+body {
+    background-image: url(../assets/mountains-universe-1.png);
+    background-size: cover;
+}
+
+nav a:nth-child(2) {
+    font-weight: 700;
+    font-size: 2.4rem;
+
+    color: var(--fc-secondary);
+}
+
+#app {
+    margin: 0 auto;
+    margin-top: 17.2rem;
+
+    align-items: center;
+    gap: 2.4rem;
+}

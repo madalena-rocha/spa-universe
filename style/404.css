@@ -1,0 +1,11 @@
+#app {
+    margin: 0 auto;
+    margin-top: 14.3rem;
+
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.error {
+    text-align: center;
+}

@@ -12,11 +12,18 @@
     --fc-secondary: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
 
     min-height: 100vh;
+
+    background-image: url(../assets/mountains-universe-1.png);
+    background-size: cover;
 }
 
 nav {
@@ -28,12 +35,14 @@ nav {
 }
 
 nav a {
-    text-decoration: none;
-
     font-size: 2.17rem;
     line-height: 2.2rem;
 
     color: var(--fc-nav);
+
+    padding-bottom: 1.1rem;
+
+    transition: all .5s ease;
 }
 
 #app {
@@ -50,7 +59,7 @@ nav a {
     color: var(--fc-primary);
 }
 
-#app button {
+.button {
     padding: 1.2rem 3.2rem;
     border: 2px solid var(--fc-secondary);
     border-radius: 5px;
@@ -63,12 +72,16 @@ nav a {
     background-color: transparent;
 
     cursor: pointer;
-    transition: transform .5s ease;
+    transition: all .5s ease;
 }
 
-#app button:hover {
+.button:hover {
     transform: scale(1.1);
-    transition: transform .5s ease;
+    
+    background-color: var(--fc-secondary);
+    color: #02799D;
+    
+    transition: all .5s ease;
 }
 
 #app p {

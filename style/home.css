@@ -2,7 +2,6 @@
 
 body {
     background-image: url(../assets/mountains-universe-1.png);
-    background-size: cover;
 }
 
 nav a:nth-child(2) {
@@ -10,6 +9,7 @@ nav a:nth-child(2) {
     font-size: 2.4rem;
 
     color: var(--fc-secondary);
+    border-bottom: 1px solid var(--fc-secondary);
 }
 
 #app {

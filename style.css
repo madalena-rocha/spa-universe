@@ -24,7 +24,7 @@ body {
 
     background-image: url(../assets/mountains-universe-1.png);
     background-size: cover;
-    background-color: hsl(210, 100%, 7%);
+    background-color: #010C10;
 
     transition: background-image .5s ease;
 }
